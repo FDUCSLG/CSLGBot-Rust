@@ -1,0 +1,12 @@
+[package]
+name = "CSLGBot-Rust1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kovi = "0.11.10"
+
+[workspace]
+
+[workspace.dependencies]
+kovi = "0.11.10"
