@@ -5,6 +5,8 @@ edition = "2021"
 
 [dependencies]
 kovi = "0.11.10"
+kovi-plugin-cmd = "0.1.1"
+kovi-plugin-like = "3.0.0"
 
 [workspace]
 
