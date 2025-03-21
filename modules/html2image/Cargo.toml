@@ -1,0 +1,11 @@
+[package]
+name = "html2image"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+headless_chrome = { workspace = true }
+tokio = { workspace = true }
+base64 = { workspace = true }

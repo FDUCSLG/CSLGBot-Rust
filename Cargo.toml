@@ -1,5 +1,5 @@
 [package]
-name = "CSLGBot-Rust1"
+name = "CSLGBot-Rust"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,8 +7,14 @@ edition = "2021"
 kovi = "0.11.10"
 kovi-plugin-cmd = "0.1.1"
 kovi-plugin-like = "3.0.0"
+md2image = { path = "modules/md2image" }
+html2image = { path = "modules/html2image" }
 
 [workspace]
+members = ["modules/md2image", "modules/html2image"]
 
 [workspace.dependencies]
 kovi = "0.11.10"
+headless_chrome = "1.0.15"
+tokio = "1.43.0"
+base64 = "0.22.1"
